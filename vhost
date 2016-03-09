@@ -1,7 +1,7 @@
 server {
     listen  80;
     #listen [::]:80;
-    server_name xci.123allrecipes.com;
+    server_name xci.123allrecipes.com localhost;
     access_log /var/apps/xci.123allrecipes.com/logs/access.log;
     error_log /var/apps/xci.123allrecipes.com/logs/error.log;
 
