@@ -4,7 +4,7 @@ server {
     access_log /var/log/nginx/xci.com-access.log;
     error_log  /var/log/nginx/xci.com-error.log error;
 
-    root  /var/apps/xci.123allrecipes.com;
+    root  /var/apps/vdt/xci;
     index index.php index.html index.htm;
 
     proxy_connect_timeout       600;
