@@ -1,10 +1,10 @@
 server {
     listen  80;
     server_name localhost;
-    access_log /var/log/nginx/123allrecipes.com-access.log;
-    error_log  /var/log/nginx/123allrecipes.com-error.log error;
+    access_log /var/log/nginx/quotemelove.com-access.log;
+    error_log  /var/log/nginx/quotemelove.com-error.log error;
 
-    root  /var/apps/vdt/123allrecipes.com;
+    root  /var/apps/vdt/quotemelove.com;
     index index.php index.html index.htm;
 
     gzip on;
